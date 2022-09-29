@@ -5,6 +5,7 @@ bin
 *.dll
 *.so
 *.dylib
+__debug_bin
 
 # Test binary, built with `go test -c`
 *.test
@@ -18,12 +19,7 @@ bin
 # Go workspace file
 go.work
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+.vscode
 *-workspace
 
 # Local History for Visual Studio Code
